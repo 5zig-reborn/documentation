@@ -1,1 +1,50 @@
-site_name: 5zig Reborn
+site_name: 5zig Reborn Wiki
+site_description: 'Documentation for The 5zig Mod'
+site_author: '5zig Reborn'
+site_url: 'https://docs.5zigreborn.eu'
+
+repo_name: '5zig-reborn/The-5zig-Mod'
+repo_url: 'https://github.com/5zig-reborn/The-5zig-Mod'
+
+theme:
+  name: material
+  theme_dir: 'mkdocs-material/material'
+  logo: 'images/logo.png'
+  favicon: 'images/logo.png'
+  palette:
+    primary: 'red' # Wanted to use Amber but it looks ugly and puts stress on the eyes
+    accent: 'orange'
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/5zig-reborn'
+    - type: 'twitter'
+      link: 'https://twitter.com/The5zigMod'
+    - type: 'reddit'
+      link: 'https://reddit.com/r/5zig'
+    - type: 'discord'
+      link: 'https://l.5zigreborn.eu/discord'
+
+copyright: 'Copyright &copy; 2019 5zig Reborn. Licensed under the GNU Free Documentation License v1.3'
+
+markdown_extensions:
+  - admonition
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - toc:
+      permalink: true
