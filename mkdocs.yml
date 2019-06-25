@@ -11,6 +11,8 @@ theme:
   theme_dir: 'mkdocs-material/material'
   logo: 'images/logo.png'
   favicon: 'images/logo.png'
+  feature:
+    tabs: true
   palette:
     primary: 'red' # Wanted to use Amber but it looks ugly and puts stress on the eyes
     accent: 'orange'
