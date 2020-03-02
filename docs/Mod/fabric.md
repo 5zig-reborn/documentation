@@ -8,10 +8,6 @@ Just drop that file into the Fabric `mods` folder.
 * First, grab the 5zig Fabric Patcher from [here](https://github.com/5zig-reborn/5zig-fabric/releases/latest), and an up-to-date 5zig mod from
 [here](https://github.com/5zig-reborn/deployments).
 
-!!! note
-    The 5zig Fabric Patcher only works with Fabric version `<= 0.6.2`.  
-    However, the patched `-Fabric.jar` file will work on all versions.
-
 * Put both in the Fabric `mods` folder and start Minecraft.
 
 !!! warning
