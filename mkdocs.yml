@@ -28,7 +28,7 @@ extra:
     - type: 'discord'
       link: 'https://l.5zigreborn.eu/discord'
 
-copyright: 'Copyright &copy; 2019 5zig Reborn. Licensed under the GNU Free Documentation License v1.3'
+copyright: 'Copyright &copy; 2019-2020 5zig Reborn. Licensed under the GNU Free Documentation License v1.3'
 
 markdown_extensions:
   - admonition
