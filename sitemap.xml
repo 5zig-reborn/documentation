@@ -2,37 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://docs.5zigreborn.eu/</loc>
-     <lastmod>2020-03-02</lastmod>
+     <lastmod>2020-04-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.5zigreborn.eu/Client_API/home/</loc>
-     <lastmod>2020-03-02</lastmod>
+     <lastmod>2020-04-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.5zigreborn.eu/Client_API/manifest/</loc>
-     <lastmod>2020-03-02</lastmod>
+     <lastmod>2020-04-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.5zigreborn.eu/Client_API/updates/</loc>
-     <lastmod>2020-03-02</lastmod>
+     <lastmod>2020-04-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.5zigreborn.eu/Mod/chat-filter/</loc>
+     <lastmod>2020-04-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.5zigreborn.eu/Mod/fabric/</loc>
-     <lastmod>2020-03-02</lastmod>
+     <lastmod>2020-04-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.5zigreborn.eu/Mod/home/</loc>
-     <lastmod>2020-03-02</lastmod>
+     <lastmod>2020-04-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.5zigreborn.eu/Server_API/home/</loc>
-     <lastmod>2020-03-02</lastmod>
+     <lastmod>2020-04-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
