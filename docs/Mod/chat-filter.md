@@ -1,5 +1,5 @@
 # Chat Filter Placeholders
-Chat Filter, Auto Text, and Auto Join Text support many different placeholders that are automatically evaluated by the mod.  
+Chat Filter, Auto Text, and Join Auto Text support many different placeholders that are automatically evaluated by the mod.  
 All placeholders have the `${placeholder}` syntax. For example, the `username` placeholder would be `${username}`.  
 Here's a list:
 
@@ -28,10 +28,19 @@ Selects a random entry from `entries`
 **Syntax**: `${server-ip}`
 
 ## Current Server Lobby
+
+!!! note
+    Only available if the mod supports the server, either natively or via a plugin.
 **Syntax**: `${server-lobby}`
 
 ## Current Server Port
 **Syntax**: `${server-port}`
+
+## Current Server Gamemode
+
+!!! note
+    Only available if the mod supports the server, either natively or via a plugin.
+**Syntax**: `${server-gamemode}`
 
 ## Time (HH:mm)
 **Syntax**: `${time-min}`
@@ -40,12 +49,15 @@ Selects a random entry from `entries`
 **Syntax**: `${time-sec}`
 
 ## Player Username
+**Since**: 3.13.1  
 **Syntax**: `${username}`
 
 ## Player UUID
+**Since**: 3.13.1  
 **Syntax**: `${uuid}`  
 User's UUID *with* dashes. Example: `bba224a2-0bff-4913-b042-27ca3b60973f`
 
 ## Player UUID, stripped
+**Since**: 3.13.1  
 **Syntax**: `${uuid-stripped}`  
 User's UUID *without* dashes. Example: `bba224a20bff4913b04227ca3b60973f`
