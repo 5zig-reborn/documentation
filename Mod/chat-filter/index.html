@@ -492,6 +492,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#current-server-gamemode" title="Current Server Gamemode" class="md-nav__link">
+    Current Server Gamemode
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#time-hhmm" title="Time (HH:mm)" class="md-nav__link">
     Time (HH:mm)
   </a>
@@ -686,6 +693,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#current-server-gamemode" title="Current Server Gamemode" class="md-nav__link">
+    Current Server Gamemode
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#time-hhmm" title="Time (HH:mm)" class="md-nav__link">
     Time (HH:mm)
   </a>
@@ -740,7 +754,7 @@
                 
                 
                 <h1 id="chat-filter-placeholders">Chat Filter Placeholders<a class="headerlink" href="#chat-filter-placeholders" title="Permanent link">&para;</a></h1>
-<p>Chat Filter, Auto Text, and Auto Join Text support many different placeholders that are automatically evaluated by the mod.<br />
+<p>Chat Filter, Auto Text, and Join Auto Text support many different placeholders that are automatically evaluated by the mod.<br />
 All placeholders have the <code>${placeholder}</code> syntax. For example, the <code>username</code> placeholder would be <code>${username}</code>.<br />
 Here's a list:</p>
 <h2 id="player-coordinates">Player Coordinates<a class="headerlink" href="#player-coordinates" title="Permanent link">&para;</a></h2>
@@ -761,20 +775,33 @@ Selects a random entry from <code>entries</code></p>
 <h2 id="current-server-ip">Current Server IP<a class="headerlink" href="#current-server-ip" title="Permanent link">&para;</a></h2>
 <p><strong>Syntax</strong>: <code>${server-ip}</code></p>
 <h2 id="current-server-lobby">Current Server Lobby<a class="headerlink" href="#current-server-lobby" title="Permanent link">&para;</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Only available if the mod supports the server, either natively or via a plugin.</p>
+</div>
 <p><strong>Syntax</strong>: <code>${server-lobby}</code></p>
 <h2 id="current-server-port">Current Server Port<a class="headerlink" href="#current-server-port" title="Permanent link">&para;</a></h2>
 <p><strong>Syntax</strong>: <code>${server-port}</code></p>
+<h2 id="current-server-gamemode">Current Server Gamemode<a class="headerlink" href="#current-server-gamemode" title="Permanent link">&para;</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Only available if the mod supports the server, either natively or via a plugin.</p>
+</div>
+<p><strong>Syntax</strong>: <code>${server-gamemode}</code></p>
 <h2 id="time-hhmm">Time (HH:mm)<a class="headerlink" href="#time-hhmm" title="Permanent link">&para;</a></h2>
 <p><strong>Syntax</strong>: <code>${time-min}</code></p>
 <h2 id="time-hh58mm58ss">Time (HH:mm:ss)<a class="headerlink" href="#time-hh58mm58ss" title="Permanent link">&para;</a></h2>
 <p><strong>Syntax</strong>: <code>${time-sec}</code></p>
 <h2 id="player-username">Player Username<a class="headerlink" href="#player-username" title="Permanent link">&para;</a></h2>
-<p><strong>Syntax</strong>: <code>${username}</code></p>
+<p><strong>Since</strong>: 3.13.1<br />
+<strong>Syntax</strong>: <code>${username}</code></p>
 <h2 id="player-uuid">Player UUID<a class="headerlink" href="#player-uuid" title="Permanent link">&para;</a></h2>
-<p><strong>Syntax</strong>: <code>${uuid}</code><br />
+<p><strong>Since</strong>: 3.13.1<br />
+<strong>Syntax</strong>: <code>${uuid}</code><br />
 User's UUID <em>with</em> dashes. Example: <code>bba224a2-0bff-4913-b042-27ca3b60973f</code></p>
 <h2 id="player-uuid-stripped">Player UUID, stripped<a class="headerlink" href="#player-uuid-stripped" title="Permanent link">&para;</a></h2>
-<p><strong>Syntax</strong>: <code>${uuid-stripped}</code><br />
+<p><strong>Since</strong>: 3.13.1<br />
+<strong>Syntax</strong>: <code>${uuid-stripped}</code><br />
 User's UUID <em>without</em> dashes. Example: <code>bba224a20bff4913b04227ca3b60973f</code></p>
                 
                   
