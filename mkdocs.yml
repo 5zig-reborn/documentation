@@ -17,7 +17,7 @@ nav:
 - Mod:
   - Introduction: 'mod/index.md'
   - 'Fabric Installation': 'mod/fabric.md'
-  - 'Placeholders': 'mod/chat-filter.md'
+  - 'Placeholders': 'mod/placeholders.md'
 - 'Server API':
   - Introduction: 'server-api/index.md'
 
