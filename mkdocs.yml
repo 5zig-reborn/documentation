@@ -6,29 +6,64 @@ site_url: 'https://docs.5zigreborn.eu'
 repo_name: '5zig-reborn/The-5zig-Mod'
 repo_url: 'https://github.com/5zig-reborn/The-5zig-Mod'
 
+copyright: 'Copyright &copy; 2019-2021 5zig Reborn. Licensed under the <a href="https://github.com/5zig-reborn/documentation/blob/master/LICENSE" target="_blank" rel="nofollow">GNU Free Documentation License v1.3</a>'
+
+nav:
+- Welcome: 'index.md'
+- 'Client API':
+  - Introduction: 'client-api/index.md'
+  - 'The Plugin Manifest': 'client-api/manifest.md'
+  - 'Automatic Updates': 'client-api/updates.md'
+- Mod:
+  - Introduction: 'mod/index.md'
+  - 'Fabric Installation': 'mod/fabric.md'
+  - 'Placeholders': 'mod/placeholders.md'
+- 'Server API':
+  - Introduction: 'server-api/index.md'
+
 theme:
   name: material
-  theme_dir: 'mkdocs-material/material'
-  logo: 'images/logo.png'
-  favicon: 'images/logo.png'
-  feature:
-    tabs: true
+  logo: 'assets/images/logo.png'
+  favicon: 'assets/images/logo.png'
+  icon:
+    repo: 'fontawesome/brands/github-square'
   palette:
-    primary: 'red' # Wanted to use Amber but it looks ugly and puts stress on the eyes
+    scheme: 'slate'
+    primary: 'amber'
     accent: 'orange'
+  features:
+  - navigation.tabs
+  - navigation.tabs.sticky # Always show the tabs at the top
+  - navigation.sections # put the pages on the site in sections
+  - navigation.top # Adds a "Back to top" button
 
 extra:
   social:
-    - type: 'github'
+    - icon: 'fontawesome/brands/github'
       link: 'https://github.com/5zig-reborn'
-    - type: 'twitter'
+    - icon: 'fontawesome/brands/twitter'
       link: 'https://twitter.com/The5zigMod'
-    - type: 'reddit'
+    - icon: 'fontawesome/brands/reddit'
       link: 'https://reddit.com/r/5zig'
-    - type: 'discord'
+    - icon: 'fontawesome/brands/discord'
       link: 'https://l.5zigreborn.eu/discord'
 
-copyright: 'Copyright &copy; 2019-2020 5zig Reborn. Licensed under the GNU Free Documentation License v1.3'
+plugins:
+- search
+- redirects:
+    redirect_maps:
+      # Client API pages
+      'Client_API/home.md': 'client-api/index.md'
+      'Client_API/manifest.md': 'client-api/manifest.md'
+      'Client_API/updates.md': 'client-api/updates.md'
+      
+      # Mod pages
+      'Mod/home.md': 'mod/index.md'
+      'Mod/chat-filter.md': 'mod/placeholders.md'
+      'Mod/fabric.md': 'mod/fabric.md'
+      
+      # Server API pages
+      'Server_API/home.md': 'server-api/index.md'
 
 markdown_extensions:
   - admonition
@@ -39,7 +74,9 @@ markdown_extensions:
   - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.inlinehilite
   - pymdownx.magiclink
   - pymdownx.mark
@@ -48,5 +85,7 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+  - pymdownx.keys
   - toc:
       permalink: true
+  - footnotes
